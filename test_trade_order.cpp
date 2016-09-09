@@ -5,7 +5,7 @@ using namespace std;
 
 void display_trade(struct generic_trade_order trade_order){
 
-    cout<< trade_order.trade_type << "," << trade_order.security << "," << trade_order.size << "," << trade
+    cout<< trade_order.trade_type << "," << trade_order.security << "," << trade_order.size << "," << trade_order.price <<
 
 int main(){
 
