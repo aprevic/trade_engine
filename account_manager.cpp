@@ -42,6 +42,13 @@ int initialize_account_manager(){
     return 0;
 }
 
+int get_position_hashing(int account_number){
+
+    // apply hashing function on input account_number      h = some_hash_function(account_number)
+    // obtain initial search                               pos = h % NUM_ACCOUNTS
+    // use linear probe to find item starting at pos
+}
+
 int get_position(int account_number){
 
     int g;

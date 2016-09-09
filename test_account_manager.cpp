@@ -19,7 +19,7 @@ int test_get_account_status(){
     int result;
 
     result = SUCCESS;
-    if(get_account_status(1234)!=0) result = FAILURE;
+    if(get_account_status(1234)!=0 && ) result = FAILURE;
     #ifdef DEBUG_TEST_ACCOUNT_MANAGER
     cout << "first trial done" << endl;
     #endif
